@@ -13,7 +13,7 @@ select OPS_REGION,count(1) from KYLIN_SALES group by OPS_REGION;
 when error comes, I have logged it:
 ```
    if (comparator.compare(last, fetched) > 0)
-   logger.error("comarator:{}, class: {}, last:{}, fetched: {}", comparator.getClass().getName(),                            last.getClass().getName(), last, fetched);
+   logger.error("comarator:{}, class: {}, last:{}, fetched: {}", comparator.getClass().getName(), last.getClass().getName(), last, fetched);
 ```
                             
                             
