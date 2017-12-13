@@ -1,6 +1,7 @@
 ## reproduce method
 
 data ： DEFAULT.KYLIN_SALES.csv
+
 cube：kylin_sales_cube.json
 
 sql
